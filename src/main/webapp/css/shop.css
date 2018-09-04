@@ -1,0 +1,478 @@
+body{
+	background-color: #f7f7f7;
+	margin:0px;
+	padding:0px;
+}
+.shop_top{
+	width:100%;
+	height:142px;
+	background:url(../image/shop-bg.jpg);
+}
+.shop_top_contain{
+	width:1180px;
+	height:100%;
+	margin:0px auto;
+}
+.shop_info{
+	position:relative;
+	float:left;
+	width:480px;
+	height:142px;
+}
+.shop_info:hover{
+	background-color:  rgba(255,255,255,.1);
+}
+.shop_info_image{
+	display:inline-block;
+	width:95px;
+	height:95px;
+	box-sizing:border-box;
+	border-radius: 50%;
+	border:4px solid rgba(255,255,255,.3);
+	vertical-align: middle;
+	margin-right: 0px;
+}
+.shop_info_nama{
+	display:inline-block;
+	width:270px;
+	vertical-align: middle;
+	font-size:20px;
+	line-height:142px;
+	color:#fff;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.shop_server{
+	float:right;
+	width:500px;
+	height:63px;
+	display:table;
+	margin-top:40px;
+	text-align:center;
+}
+.shop_server span{
+	display:table-cell;
+	line-height:30px;
+	color:#fff;
+}
+.shop_server span em{
+	display:block;
+	font-style: normal;
+}
+.shop_info_extra{
+	display:none;
+	position:absolute;
+	top:142px;
+	right:0px;
+	z-index:10;
+	width:100%;
+	box-sizing: border-box;
+	opacity: 1;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+
+.shop_info_grade{
+	width:100%;
+	height:128px;
+	opacity: 1 !important;
+	box-sizing: border-box;
+	padding:16px 0px;
+	border-bottom:1px dashed #eee;
+}
+.shop_info_grade span{
+	display:block;
+	text-align:center;
+
+} 
+.shop_info_grade span:first-child{
+	font-size:28px;
+	color:#f74342;
+	line-height:48px;
+}
+.shop_info_grade span:nth-child(2){
+	font-size:12px;
+	color:#666;
+	line-height:18px;
+}
+.shop_info_grade span:last-child{
+	font-size:12px;
+	color:#999;
+	line-height:18px;
+}
+.shop_info_grade span:last-child em{
+	font-size:12px;
+	color:#f74342;
+	font-style:normal;
+}
+.shop_info_desc,.shop_info_adress,.shop_info_delivery{
+	width:100%;
+	box-sizing: border-box;
+	padding:15px 20px;
+	border-bottom:1px dashed #eee;
+	font-size:14px;
+	color:#666;
+}
+.shop_info_adress span{
+	display:inline-block;
+}
+.shop_info_delivery{
+	border-bottom:none;
+}
+.shop_info_delivery span{
+	color:#0089dc;
+}
+.shop_main{
+	width:1180px;
+	box-sizing: border-box;
+	margin:20px  auto;
+}
+.shop_main_left{
+	display: inline-block;
+	width:885px;
+}
+.shop_main_tab{
+	width:100%;
+	height:59px;
+	list-style: none;
+	background-color: #fff;
+}
+.shop_main_tab li{
+	position:relative;
+	float:left;
+	width:112px;
+	height:100%;
+	font-size:16px;
+	line-height:59px;
+	text-align:center;
+	color:#333;
+	cursor:pointer;
+}
+.shop_main_tab li:nth-child(2):before{
+	position:absolute;
+	content:"";
+	top: 50%;
+	left:0;
+    margin-top: -7px;
+    height: 14px;
+    width: 1px;
+    background-color: #ccc;
+}
+.shop_main_left_item{
+	margin-top:27px;
+}
+.shop_food,.shop_comment{
+	/*display: inline-block;*/
+	width:100%;
+	box-sizing: border-box;
+}
+.shop_comment{
+	display:none;
+	border:1px solid #eee;
+	background-color: #fff;
+}
+.shop_food_item{
+	position: relative;
+	display:inline-block;
+	width:420px;
+	height:102px;
+	box-sizing: border-box;
+	margin-right:18px;
+	margin-bottom:12px;
+	border:1px solid #eee;;
+	background-color: #fff;
+}
+.food_item_image{
+	display: inline-block;
+	width:100px;
+	height:100px;
+}
+.food_item_message{
+	display:inline-block;
+	width:200px;
+	height:100px;
+	box-sizing: border-box;
+	padding:12px 12px;
+	vertical-align: top;
+	font-size:14px;
+}
+.food_item_message span{
+	display: inline-block;
+	width:100%;
+}
+.food_item_message span:first-child{	
+	color:#000;
+}
+.food_item_message span:last-child{
+	color:#f74342;
+	margin-top: 37px;
+}
+.food_item_button{
+	position: absolute;
+	display:inline-block;/*none*/
+	width:90px;
+	height:26px;
+	bottom:10px;
+	right:10px;
+	border-radius: 20px;
+	line-height:26px;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	cursor:pointer;
+	background-color: #0089dc;
+}
+.food_item_choose{
+	display: none;
+	position: absolute;
+	width:90px;
+	height:26px;
+	bottom:10px;
+	right:10px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 26px;
+	background-color: pink;
+	font-size: 0px;
+	overflow: hidden;
+	border:1px solid #ddd;
+}
+.food_item_choose span{
+	display:inline-block;
+	width:27px;
+	height:26px;
+	font-size:12px;
+	background-color: #ddd;
+	/*border:1px solid #ddd;*/
+	box-sizing: border-box;
+	cursor:pointer;
+}
+.food_item_choose input{
+	display: inline-block;
+	width:36px;
+	height:27px;
+	margin:0px;
+	outline: none;
+	border:none;
+	line-height: 27px;
+	text-align: center;
+	box-sizing: border-box;
+	/*border:1px solid #ddd;*/
+	/*border-top:1px solid #ddd;*/
+	/*border-bottom:1px solid #ddd;*/
+	/*background-color: blue;*/
+}
+.shop_comment_tab{
+	width:100%;
+	height:43px;
+	box-sizing:border-box;
+	border-bottom:1px solid #eee;
+	border-right:1px solid #eee;
+	list-style: none;
+}
+.shop_comment_tab_item{
+	float:left;
+	width:115px;
+	height:43px;
+	text-align: center;
+	line-height: 43px;
+	border-right: 1px solid #eee;
+}
+.shop_comment_list{
+	width:100%;
+	list-style: none;
+}
+.shop_comment_list_item{
+	border-bottom: 1px solid #eee;
+}
+.comment_good,.comment_bad,.comment_pic{
+	display:none;
+}
+.shop_comment_list li{
+	width:100%;
+}
+.comment_list_item_top{
+	width:100%;
+	height:60px;
+	box-sizing:border-box;
+	margin-top:20px;
+	padding:0px 42px;
+}
+.comment_image{
+	display: inline-block;
+	width:60px;
+	height:60px;
+}
+.comment_mess{
+	display: inline-block;
+	vertical-align: top;
+}
+.comment_mess li{
+	font-size:14px;
+	line-height:30px;
+}
+.comment_icon_list{
+	display:inline-block;
+}
+.comment_icon_list li{
+	/*position: relative;*/
+	float:left;
+	margin-right:5px;
+}
+.comment_mess_active{
+	color:#eb6643 !important;
+}
+
+.comment_mess,.comment_icon_list,.comment_food_list,.comment_food_icon_list{
+	list-style: none;
+}
+.comment_mess span{
+	color:#999;
+}
+.comment_time{
+	float:right;
+	font-size:12px;
+	color:#999;
+}
+.comment_food_list{
+	width:100%;
+	box-sizing: border-box;
+	padding-left:104px;
+}
+.comment_food_list_item{
+	width:100%;
+	height:54px;
+	line-height: 54px;
+	border-bottom:1px solid #f7f7f7;;
+}
+.comment_food_icon_list{
+	display: inline-block;
+}
+.comment_food_icon_list li{
+	float:left;
+	height:53px;
+	margin-right:5px;
+}
+.comment_food_list_item span{
+	font-size:14px;
+	color:#333;
+}
+
+
+.shop_main_right{
+	display:inline-block;
+	width:278px;
+	vertical-align: top;
+	box-sizing: border-box;
+	margin-top:60px;
+	padding:0px 0px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.12);
+}
+.shop_main_right_title{
+	width:100%;
+	height:45px;
+	box-sizing: border-box;
+	font-size:16px;
+	color:#fff;
+	line-height: 45px;
+	padding:0px 16px;
+
+	background-color: #0089dc;
+
+}
+.shop_main_right_ps{
+	width:100%;
+	box-sizing: border-box;
+	padding:16px 16px;
+	font-size:14px;
+	color:#000;
+	background-color: #fff;
+
+}
+.shop_main_right_carrige{
+	width:100%;
+	box-sizing: border-box;
+	padding:16px 16px;
+}
+.shop_main_right_carrige span{
+	display: block;
+	line-height: 20px;
+}
+.shop_main_right_carrige span:first-child{
+	font-weight:700;
+	font-size:14px;
+}
+.shop_main_right_carrige span:last-child{
+	color:#333;
+}
+.shop_main_right_repor{
+	width:100%;
+	height:55px;
+	font-size:18px;
+	color:#666;
+	line-height: 55px;
+	text-align:center;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+.com_icon_active{
+	color:#f22 !important;
+}
+.food_icon_active{
+	color:#f18b1b !important;
+}
+
+
+.heart-solid.icon {
+	color: #cccccc;/*#f22*/
+	/*position: absolute;*/
+  	margin-top: 6px;
+  	margin-left: 5px;
+  	width: 9px;
+  	height: 9px;
+  	border-left: solid 1px currentColor;
+ 	border-bottom: solid 1px currentColor;
+ 	background-color: currentColor;
+  	-webkit-transform: rotate(-45deg);
+   	transform: rotate(-45deg);
+}
+
+.heart-solid.icon:before {
+  	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -1px;
+  	width: 8px;
+  	height: 5px;
+  	border-radius: 5px 5px 0 0;
+  	border-top: solid 1px currentColor;
+  	border-left: solid 1px currentColor;
+  	border-right: solid 1px currentColor;
+  	background-color: currentColor;
+}
+
+.heart-solid.icon:after{
+	content:'';
+	position:absolute;
+	top:0;left:8px;
+	width:5px;
+	height:8px;
+	border-radius:0 5px 5px 0;
+	border-top:solid 1px currentColor;
+	border-right:solid 1px currentColor;
+	border-bottom:solid 1px currentColor;
+	background-color:currentColor
+}
+
+
+
+
+

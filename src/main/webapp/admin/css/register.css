@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+.regtable{border-radius:5px;width:340px;height:320px;margin:0 auto;margin-top:150px;padding:20px 40px 0;background:#fff;}
+.userReg{padding-left:0;}
+#tipRegName,#tipRegPwd,#tipPwdConfirm{height:20px;font-size: 12px;}

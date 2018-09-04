@@ -1,0 +1,25 @@
+.svideo{width:960px;overflow:hidden;}
+.svideo .leftDiv{float:left;border:1px solid #FFE6EB;}
+.svideo .rightDiv{float:left;margin-left:20px;border:1px solid #FFE6EB;height:459px;width:288px;}
+.svideo .rightDiv .slistDiv{width:250px;padding-left:50px;}
+.svideo .rightDiv ul{margin:0;padding:0;text-align:left;}
+.svideo .rightDiv li:first-child{border-top:0;}
+.svideo .rightDiv li{margin-left:0px;font-size:24px;margin:0 auto;list-style:none;border-top:1px solid #F6EED0;height:60px;line-height:60px;font-size:14px;}
+.svideo .rightDiv .firstLi{background: #FFFDFE;height:50px;line-height:50px;text-align:center;border-bottom:1px solid #F6EED0;}
+.svideo .rightDiv .scorllDiv{width:288px;height:407px;overflow-y:auto;}
+.svideo .rightDiv img{margin-right:20px;}
+.sTitleDiv{width:960px;overflow:hidden;padding-right:10px;padding-bottom:10px;}
+.sTitleDiv .firstP{font-size:24px;}
+.sTitleDiv p{font-size:18px;}
+.sTitleDiv span{display:block;float:right;}
+.sTitleDiv span a:hover,a:link{text-decoration:none;}
+.feelDiv{clear:both;over-flow:hidden;}
+.feelDiv p{font-size:16px;padding-top:20px;}
+.feelDiv ul{height:100px;margin-top:20px;}
+.feelDiv ul li{list-style:none;float:left;width:60px;text-align:center;margin-right: 25px;}
+.feelDiv ul li:last-child{float:right;margin-top:20px;}
+.feelDiv img{margin-bottom:5px;}
+.otherFeel{border-top:1px solid #ddd;min-height:300px;line-height:40px;padding:10px;border-bottom:1px solid #ddd;}
+.otherFeel .row{margin:0;}
+.otherFeel .comment{border-bottom:1px dashed #ddd;padding-bottom:10px;}
+.otherFeel .row span{float:right;}

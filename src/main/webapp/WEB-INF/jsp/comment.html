@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/public.css">
+  	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<title>评价</title>
+</head>
+<body>
+	<!-- 导航条 -->
+	<div id="nav_bar" class="nav_bar">
+		<!-- 导航条内容 -->
+		<div class="nav_container">
+			<!-- 首页 -->
+			<a href="" class="index nav_bar_item nav_focus">首页</a>
+			<!-- 我的订单 -->
+			<a href="" class="orders nav_bar_item">我的订单</a>
+			<!-- 加盟合作 -->
+			<a href="" class="join nav_bar_item">加盟合作</a>			
+			<!-- 菜单按钮 -->
+			<span id="btn_down" class="btn_down nav_bar_item">
+				<svg class="icon_down" aria-hidden="true">
+  					<use xlink:href="#icon-xiangxia"></use>
+				</svg>
+			</span>
+			<!-- 用户账号 -->
+			<span class="user nav_bar_item">apollo</span>
+			<!-- 下拉框 -->
+			<div id="dropBox" class="dropBox">
+				<div class="dropBox_triangle"></div><!-- 三角形 -->
+				<div id="drop_con" class="drop_con"><!-- 下拉框内容 -->
+					<a href="" class="drop_con_item">
+						<svg class="icon_user" aria-hidden="true">
+  							<use xlink:href="#icon-gerenyonghutouxiang2"></use>
+						</svg>
+						个人中心
+					</a>
+					<a href="" class="drop_con_item">
+						<svg class="icon_location" aria-hidden="true">
+  							<use xlink:href="#icon-dizhi"></use>
+						</svg>
+						我的地址
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="comment_main">
+		<div class="comment_top">待评价订单</div>
+		<div class="comment_center">
+			<img src="image/shop.png">
+			<div class="commetn_shop">
+				<span>林记隆江猪脚饭</span>
+				<span>猪脚拼手撕鸡饭-中1份 / 豆干2份共3个菜品</span>
+			</div>
+			<div class="comment_time">下单时间：2018-06-13 09:48:42</div>
+		</div>
+		<div class="comment_con">
+			<div class="comment_serve">
+				<span class="comment_title">商家服务</span>
+				<ul class="comment_icon" id="comment_icon">
+					<li class="heart-solid icon"></li>
+					<li class="heart-solid icon"></li>
+					<li class="heart-solid icon"></li>
+					<li class="heart-solid icon"></li>
+					<li class="heart-solid icon"></li>
+				</ul>
+				<span class="comment_tips" id="comment_tips">点击心心打分</span>
+			</div>
+			<div class="comment_food">
+				<span class="comment_title">评价菜品</span>
+				<div class="food_icon">
+					<div class="food_icon_item">
+						<ul class="comment_food_icon">
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+						</ul>
+						<span class="food_tips">评价美食</span>
+					</div>
+					<div class="food_icon_item">
+						<ul class="comment_food_icon">
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+							<li class="heart-solid icon"></li>
+						</ul>
+						<span class="food_tips">评价美食</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- 侧边栏 -->
+	<div id="sidebar" class="sidebar">
+		<div id="sidebar_tabs" class="sidebar_tabs"><!-- 侧边条 -->
+			<div class="my_order"><!-- 我的订单 -->
+				<svg class="icon_single" aria-hidden="true">
+  					<use xlink:href="#icon-single"></use>
+				</svg>
+			</div>
+			<div class="shop_car"><!-- 购物车 -->
+				<svg class="icon_car" aria-hidden="true">
+  					<use xlink:href="#icon-gouwuchekong"></use>
+				</svg>
+				购物车
+			</div>
+		</div>
+		<div id="sidebar_content" class="sidebar_content"><!-- 侧边栏内容 -->
+			<div id="btn_return" class="btn_return"><!-- 返回按钮 -->
+				<span>购物车</span>
+				<span>
+					<svg class="icon_right" aria-hidden="true">
+  						<use xlink:href="#icon-shuangjiantouyou"></use>
+					</svg>
+				</span>
+			</div>
+			<div id="car_list" class="car_list">
+				<div class="list_top">
+					<span>1号购物车</span>
+					<span id="delete" class="delete">[清空]</span>
+				</div>
+				<ul id="list_center" class="list_center">
+					
+				</ul>			
+			</div>
+			<div class="list_bottom" id="list_bottom"><!-- 购物车底部 -->
+					<div class="message">
+						<span>共<span id="bottom_quantity">??</span>份</span><!-- 数量 -->
+						<span>总计<span id="bottom_count">???</span>元</span><!-- 总价格 -->
+					</div>
+					<button class="balance">去结算</button>
+				</div>
+		</div>
+	</div>
+</body>
+<script src="js/iconfont.js"></script>
+<script src="js/public.js"></script>
+<script src="js/comment.js"></script>
+</html>

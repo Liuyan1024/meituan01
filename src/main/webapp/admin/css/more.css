@@ -1,0 +1,18 @@
+.content{width:960px;min-height:620px;position:absolute;top:52px;margin-left:195px;overflow:hidden;}
+.content .knav{height:43px;border:1px solid #CBF8D8;margin-top:30px;margin-bottom:10px;border-radius:8px;background:#F9FFF9;}
+.content .knav .leftNav{width:125px;height:42px;background:#ACCF9E ;line-height:42px;border-radius:8px;text-align:center;}
+.content .knav .leftNav a{text-align:center;font-size:24px;color:#fff;}
+.content .knav .leftNav a:hover,a:link{text-decoration:none;}
+.content .loc a{color:#9B9B9B;}
+.content .loc,.loc .type{color:#04C21A;}
+.content .klistContent{min-height:500px;margin-top:10px;padding-top:10px;overflow:hidden;}
+.content .klistContent .kLeft{width:650px;min-height:500px;float:left;}
+.content .klistContent .kLeft .kl{padding-top:10px;border-bottom:1px dashed #CFC3FB;line-height:30px;}
+.content .klistContent .kLeft .kl span a{color:#FEB252;}
+.content .klistContent .kLeft .kl .kc{height:69px;overflow:hidden;word-break: break-all;}
+.content .klistContent .kLeft .kl .kc{color:#5F5F66;}
+.content .klistContent .kRight{width:286px;float:left;margin-left:20px;border-radius:5px;}
+.content .klistContent .kRight ul{padding-left:0;margin-bottom:0;}
+.content .klistContent .kRight ul li{list-style:none;text-align:center;border-top:1px solid #CBF8D8;height:60px;line-height:60px;}
+.content .klistContent .kRight ul li:first-child{border-top:none;}
+.panel-body a{color:#666;}

@@ -1,0 +1,27 @@
+.mainDiv1{width:960px;position:absolute;top:280px;}
+.mainDiv1 .storylist,.musiclist{border:1px solid #FFE6EB;border-radius:20px;background: #FFFDFE ;}
+.mainDiv1 .musiclist{margin-top:20px;margin-bottom: 20px;}
+.mainDiv1 .span1{float:left;}
+.mainDiv1 .span2{font-size:22px;}
+.mainDiv1 .tab-content .s{font-size:24px;letter-spacing: 20px;color:#8262CE;}
+.mainDiv1 .tab-content{overflow:hidden;padding-left:50px;margin-top:30px;}
+.mainDiv1 .tab-content ul li{float:left;}
+.mainDiv1 .tab-content ul li.color-0{border-top: 6px solid #8262CE;width:70px;}
+.mainDiv1 .tab-content ul li.color-1{border-top: 6px solid #FC4700;}
+.mainDiv1 .tab-content ul li.color-2{border-top: 6px solid #2EB6E4;}
+.mainDiv1 .tab-content ul li.color-3{border-top: 6px solid #AACE1A;}
+.mainDiv1 .tab-content ul li.color-4{border-top: 6px solid #FCD204;}
+.mainDiv1 .tab-content ul li.color-5{border-top: 6px solid #F8894E;}
+.mainDiv1 .tab-content ul li.color-6{border-top: 6px solid #39CFB4;}
+.mainDiv1 .tab-content ul li.color-7{border-top: 6px solid #FC4700;}
+.mainDiv1 .slist{min-height:385px;overflow:hidden;padding-left:50px;margin-top:10px;}
+.mainDiv1 .mlist{clear:both;min-height:385px;overflow:hidden;padding-top:10px;padding-bottom:30px;padding-left:50px;margin-top:10px;}
+.mainDiv1 .slist .li,.mainDiv1 .mlist .li{border:1px solid #AAA;padding:2px;width:130px;height:130px;text-align:center;float:left;margin:0 15px 20px 0;}
+.mainDiv1 .slist .li p,.mainDiv1 .mlist .li p{line-height:30px;background:rgba(255,255,255,0.85);height: 30px;overflow: hidden;}
+.mainDiv1 .slist .li a:hover,a:link,.mainDiv1 .mlist .li a:hover,a:link{text-decoration:none;}
+.mainDiv1 .slist .hidesDiv{display:none;position:absolute;width:130px;height:130px;font-size:30px;}
+.mainDiv1 .slist .hidesDiv a{color:#333;}
+.mainDiv1 .slist .hidesDiv a span{float:right;margin-top: 65px;margin-right: 10px;}
+.carousel-control.left,.carousel-control.right{background-image:none;}
+.carousel-indicators li{border:1px solid #DAB2B2;}
+.carousel-indicators .active{background-color: #FBE0E0;}

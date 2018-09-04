@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.box{
+	position:absolute;
+	/*bottom:50%;*/
+	left:50%;
+	top:50%;
+	/*right:0;
+	bottom:0;*/
+	width:300px;
+	height:280px;
+	
+	margin-top:-140px;
+	margin-left: -150px;
+	
+}
+
+.user:focus,.password:focus,.pic_in:focus{
+	border:1px solid #0089dc;
+}
+.user,.password,.pic,.btn,.tips,.pic_in{
+	width:100%;
+	height:48px;
+	margin:0px auto;
+	border-radius: 4px;
+}
+.user,.password{
+	display: block;
+	box-sizing: border-box;
+	outline: none;
+	padding-left: 20px;
+	border:1px solid #ddd;
+	color: #333;
+	margin:20px auto;
+}
+.pic{
+	margin:20px auto;
+	border:1px solid #ddd;;
+}
+.btn{
+	outline: none;
+	color:#fff;
+	border:none;
+	background-color: #4cd96f;
+	cursor: pointer;
+}
+.pic_in{
+	width:200px;
+	height:100%;
+	vertical-align: top;
+	box-sizing: border-box;
+	outline: none;
+	padding-left: 20px;
+	border:none;
+	color: #333;
+}
+.pic img{
+	display: inline-block;
+	width:100px;
+	height:48px;
+	float:right;
+}
+.tips{
+	position: relative;
+}
+.tips_text{
+	position: absolute;
+	right:0;
+	bottom: 13px;
+	font-size: 12px;
+	color:#666;
+	
+}
+.tips_text a{
+	text-decoration: none;
+	color:#0089dc;
+	cursor:pointer;
+}

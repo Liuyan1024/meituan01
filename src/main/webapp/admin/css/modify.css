@@ -1,0 +1,14 @@
+.mainDiv1{width:960px;position:absolute;top:270px;}
+#modify{margin:20px 0;background:#F4FBFF ;border-radius:20px;border:1px solid #D9E7FF;padding-top:35px;font-size:16px;overflow:hidden;}
+.check{width:80%;margin:0 auto;border-bottom:1px dashed #999;}
+.check table{font-size:16px;}
+.check table tr td{width:381px;border:1px solid #fff;padding:5px;}
+.pwdmodify{overflow:hidden;padding-top:30px;width:51%;margin:0 auto;padding-bottom:30px;}
+.lineDiv{height:1px;margin:0 auto;border-bottom:1px dashed #999;width:80%;}
+.usermodify{overflow:hidden;padding-top:30px;width:51%;margin:0 auto;padding-bottom:30px;}
+.pwdmodify span,.usermodify span{display:block;float:left;width:100px;line-height:35px;}
+.pwdmodify .input-group,.usermodify .input-group{display:block;float:left;width:380px;height:35px;}
+.usermodify select.form-control{width:100px;}
+.tipOldPwd,.tipNewPwd,.tipPwdConfirm,.tipAge,.tipEmail,.tipMobile{float:left;height:18px;width:100%;font-size:12px;padding-left:100px;}
+.btnedit{float:right;}
+.edit{margin-right:10px;}

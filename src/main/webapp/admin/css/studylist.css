@@ -1,0 +1,40 @@
+.content{width:960px;position:absolute;top:52px;min-height:600px;overflow:hidden;}
+.content .topNav{width:100%;height:40px;margin-top:30px;line-height:40px;}
+.content .topNav img{float:left;margin-right:10px;}
+.content .topNav .studyNavDiv{width:855px;border:1px solid #FEA500;height:40px;margin-left:105px;border-radius:13px;}
+.content .topNav .studyNavDiv a{color:white;height:40px;width:173px;background:transparent url("../pictures/school-nav-bg130903.jpg") repeat-x scroll 0% 0%;display:block;}
+.content .topNav .studyNavDiv li.firstLi a{border-radius: 12px 0px 0px 12px;}
+.content .topNav .studyNavDiv li.lastLi a{border-radius: 0px 12px 12px 0px;}
+.content .topNav .studyNavDiv a span{height:40px;width:173px;display: block;border-right: 1px solid #EE6A04;border-left: 1px solid #FFCB5A;}
+.content .topNav .studyNavDiv li.firstLi a span{border-left:0;}
+.content .topNav .studyNavDiv li.lastLi a span{border-right:0;}
+.content .topNav ul{padding-left:0;}
+.content .topNav ul li{list-style:none;float:left;font-size:16px;width:170px;text-align:center;}
+.content .topNav ul li:last-child{border-right:0;}
+.content .mainContent{min-height:300px;margin-top:10px;overflow:hidden;}
+.content .mainContent .div1,.div2,.div3,.div4,.div5{border:1px solid #F2D2AF;background: #FEFDFA;border-radius:20px;padding-top:30px;min-height:200px;margin-top:20px;overflow:hidden;margin-bottom: 20px;}
+.content .mainContent .div5{margin-bottom: 10px;}
+.content .mainContent .tab{padding-left: 50px;}
+.content .mainContent div span a{font-size:24px;letter-spacing: 2px;}
+.content .mainContent .div1 span a{color:#8262CE;}
+.content .mainContent .div2 span a{color:#189824;}
+.content .mainContent .div3 span a{color:#1067C0;}
+.content .mainContent .div4 span a{color:#8262CE;}
+.content .mainContent .div5 span a{color:#189824;}
+.content .mainContent div span a:hover,a:link{text-decoration:none;}
+.content .mainContent div ul li{float:left;}
+.content .mainContent .div1 ul li.color-0{border-top: 6px solid #8262CE;width:100px;}
+.content .mainContent .div2 ul li.color-0{border-top: 6px solid #189824;width:100px;}
+.content .mainContent .div3 ul li.color-0{border-top: 6px solid #1067C0;width:100px;}
+.content .mainContent .div4 ul li.color-0{border-top: 6px solid #8262CE;width:100px;}
+.content .mainContent .div5 ul li.color-0{border-top: 6px solid #189824;width:100px;}
+.content .mainContent div ul li.color-1{border-top: 6px solid #FC4700;}
+.content .mainContent div ul li.color-2{border-top: 6px solid #2EB6E4;}
+.content .mainContent div ul li.color-3{border-top: 6px solid #AACE1A;}
+.content .mainContent div ul li.color-4{border-top: 6px solid #FCD204;}
+.content .mainContent .studyContent{width:100%;overflow:hidden;min-height:320px;padding-left:50px;}
+.content .mainContent .studyContent .studyDiv{width:116px;height:89px;border:1px solid #ddd;padding:4px;float:left;margin-right:33px;margin-bottom:30px;}
+.content .mainContent .studyContent .studyDiv a span{height:20px;width:108px;display:block;color:#666;font-size:14px;text-align:center;margin-top:5px;overflow: hidden;}
+.carousel-control.left,.carousel-control.right{background-image:none;}
+.carousel-indicators li{border:1px solid #DAB2B2;}
+.carousel-indicators .active{background-color: #FBE0E0;}

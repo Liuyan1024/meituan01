@@ -1,0 +1,28 @@
+/*上导航栏*/
+.navbar-default {background-color:#5579BA;color:#fff;margin-bottom:10px;}
+.navbar-default .navbar-header{margin-top:13px;margin-left:115px;color:#fff;color:#fff;}
+.navbar-default .navbar-text{float:right;margin-right:115px;color:#fff;}
+.navbar-default .navbar-text a{color:#fff;}
+
+/*左导航栏*/
+.navLeft{width:260px;height:409px;border:1px solid #6b8ac3;margin-right:10px;float:left;font-size:18px;}
+.navLeft table{width:258px;}
+.navLeft table tr{border-bottom:1px solid #6b8ac3;}
+.navLeft table tr:last-child{border-bottom:0;}
+.active{background:#F0F0F0;}
+.navLeft table tr td{align:center;}
+.navLeft table tr td:hover{background:#F0F0F0;}
+.navLeft table tr td a{width:258px;height:50px;display:inline-block;line-height:50px;}
+.navLeft a:hover,.navLeft a:link{text-decoration:none;}
+/*主内容*/
+.navRight{width:868px;height:600px;overflow:hidden;border:1px solid #6b8ac3;float:left;}
+.content{min-height:500px;}
+.content .btnDiv{margin-top:10px;margin-left:20px;}
+.content .btn{margin-right:10px;}
+.content .form-control{width:120px;display:inline-block;margin-right:10px;}
+.content table{width:828px;margin:0 auto;border:1px solid #F0F0F0;margin-top:10px;table-layout:fixed;}
+.content table tr td{line-height:40px;border:1px solid #F0F0F0;white-space:nowrap;overflow:hidden;font-size:14px;}
+.page{text-align:center;}
+/*模态框*/
+.modal table{width:60%;height:50%;margin:0 auto;}
+.modal table tr td{line-height:45px;height:45px;}

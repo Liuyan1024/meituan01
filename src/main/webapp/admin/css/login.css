@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.logintable{width:380px;height:280px;margin-left:700px;margin-top:200px;padding-top:20px;padding-right:30px;border:1px solid #fff;background:rgba(240,240,240,0.65);}
+h4{text-align:center;padding-left:30px;}
+.button{float:right;margin-top:5px;}
+.button #loginbtn,#regbtn{width: 260px;background: #74D86A none repeat scroll 0% 0%;color: white;font-weight:bold;}
+#tipName,#tipPwd{margin-left:90px;height:20px;font-size: 12px;}
+body{background-image:url(../pictures/slide3.jpg);background-repeat: no-repeat;}
+a{clear:both;margin-top:10px;float:right;}
+a:hover{color:red;}

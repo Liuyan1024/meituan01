@@ -1,0 +1,48 @@
+.content{margin-left:195px;min-height:600px;width:960px;overflow:hidden;}
+.content .searchDiv{width:100%;height:90px;padding:23px 0 15px 40px;;background:#E4D9FC ;border-radius:20px;}
+.content .searchDiv span{margin-top:5px;}
+.content .searchDiv span a{font-size:28px;color:white;}
+.content .searchDiv span a:hover,a:link{text-decoration:none;}
+.content .searchDiv .form-control{width:400px;display:inline-block;border-radius:0;border-right:0;height:40px;margin-left:100px;}
+.content .searchDiv .btn{margin-bottom:3px;height:40px;border-left:0;border-radius:0;background:#6B6B6B;color:white;border-color:#6B6B6B;}
+.content .searchDiv .btn a{color:white;}
+/* 最新回复 */
+.content .problem{border-radius:20px;background:#FBFAFE ;width:100%;height:607px;border:1px solid #ddd;border-top:5px solid #666;margin-top:30px;padding:4px 15px 0 15px;overflow:hidden;margin-bottom: 20px;}
+.content .problem .proNav{width:100%;border-bottom:1px solid #ccc;height:46px;}
+.content .problem .proCon{height:495px;overflow:hidden;border-top:3px solid #F4F4F4;}
+.content .problem .proCon dl{height:122px;border-bottom:1px dashed #ddd;padding:20px 0 20px 0;margin-bottom:0px;}
+.content .problem .proCon dl dt{width:80px;height:24px;line-height:24px;float:left;text-align:center;color:#FFF;background:#666 none repeat scroll 0% 0%;}
+.content .problem .proCon dl dd{width:836px;height:72px;float:left;margin-left:10px;word-break:break-all;overflow:hidden;}
+.content .problem .proCon dl dd b a{color:#666;}
+.content .problem .proCon dl dd p{word-wrap: break-word;color:#666;line-height:25px;padding-top:8px;font-size:12px;}
+/* 我有疑问 */
+.modal-content{width:625px;height:450px;}
+.modal-content table{width:90%;margin:0 auto;margin-top:20px;}
+.modal-content table tr td{font-size:14px;padding-bottom:10px;}
+/* 问题列表 */
+.content .questions{border-radius:20px;background:#FBFAFE ;width:100%;min-height:607px;border:1px solid #ddd;border-top:5px solid #666;margin-top:30px;padding:4px 15px 0 15px;overflow:hidden;margin-bottom: 20px;}
+.content .questions .proNav{width:100%;border-bottom:1px solid #ccc;height:46px;}
+.content .questions .proCon{min-height:430px;}
+.content .questions .proCon dl{height:122px;border-bottom:1px dashed #ddd;padding:20px 0 20px 0;margin-bottom:0px;}
+.content .questions .proCon dl dt{width: 84px;height: 86px;float: left;text-align: center;}
+.content .questions .proCon dl dt em{width: 100%;height: 21px;line-height: 21px;margin-top: 2px;display: block;overflow: hidden;color: #FFF;background: #67A7E6 none repeat scroll 0% 0%;font-size: 14px;}
+.content .questions .proCon dl dt b{width: 100%;height: 21px;line-height: 21px;display: block;overflow: hidden;color: #FFF;background: #B3B3B3 none repeat scroll 0% 0%;margin-top: 7px;font-size: 14px;}
+.content .questions .proCon dl dd{width:827px;height:72px;float:left;margin-left:10px;word-break:break-all;overflow:hidden;}
+.content .questions .proCon dl dd b a{color:#666;}
+.content .questions .proCon dl dd p{word-wrap: break-word;color:#666;line-height:25px;padding-top:8px;font-size:12px;}
+.content .questions .page{text-align:center;}
+/* 问题详情 */
+.content .heightDiv{min-height:390px;overflow:hidden;}
+.content .proAn{background:#FBFAFE;}
+.content .proAn,.anDiv{border-radius:20px; width:100%;border:1px solid #ddd;border-top:5px solid #666;margin-top:30px;padding:4px 15px 20px 15px;overflow:hidden;}
+.content .proAn .proTitle{width:100%;height:70px;border-bottom:1px solid #ccc;}
+.content .proAn .proTitle span,.content .anDiv span{color:#666;}
+.content .proAn .proTitle span.proTime{float:right;}
+.content .anDiv .proIntro{background:#FBFAFE;}
+.content .proAn .proIntro,.anDiv .proIntro{min-height:90px;overflow:hidden;padding-top:15px;border-bottom:1px solid #ddd;}
+.content .proAn .proIntro{border-top:3px solid #F4F4F4;}
+.content .proAn .proIntro p,.anDiv p{line-height:25px;}
+.content .proAn .alink{text-align:right;margin-top:15px;}
+.content .anDiv .answerIntro{padding-top:15px;border-bottom:1px solid #ddd;min-height:90px;overflow:hidden;background:rgba(242,242,242,0.2);}
+.content .anDiv .answerIntro span{text-align:right;display:block;}
+.content .anDiv{margin-bottom: 20px;}

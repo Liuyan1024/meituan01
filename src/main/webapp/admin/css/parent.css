@@ -1,0 +1,38 @@
+.mainContent{width:960px;position:absolute;top:280px;}
+.tab-content{border-bottom:1px solid #B6F2AE;}
+.content{margin-bottom: 20px;}
+.nav-tabs{border-bottom:1px solid #B6F2AE;}
+/*育儿知识*/
+#knowledge{overflow:hidden;}
+#knowledge div{border-radius:20px;width:456px;height:332px;float:left;margin-top:1px;border: 1px solid #B6F2AE;background: rgb(249, 255, 249);}
+#knowledge .safetyDiv,.intelligenceDiv,.artDiv,.natureDiv{margin-bottom:30px;}
+#knowledge div span{float:right;margin-top:10px;margin-right:30px;}
+#knowledge div span a{color:#0B9935;}
+#knowledge .sco{width:456px;height:250px;}
+#knowledge .sco p{text-align: center;}
+#knowledge .intelligenceDiv,.natureDiv,.habitDiv{margin-left:45px;float:left;}
+#knowledge p{font-size:18px;margin-top:10px;margin-bottom:15px;}
+#knowledge ul li{margin-left:45px;line-height:30px;}
+/* 照片列表 */
+#photolist{overflow:hidden;padding-left:20px;padding-top:20px;background: rgb(249, 255, 249);}
+#photolist button{width:100px;margin-bottom:20px;}
+#photolist .timeDiv{overflow:hidden;}
+#photolist .ptime{font-size:18px;margin-bottom:10px;}
+#photolist span{display:block;}
+#photolist .photoDiv{width:158px;height:183px;padding:6px;margin-bottom:20px;background:white;border:1px solid #D2FFD3;float:left;margin-right:29px;}
+#photolist .photoDiv span{font-size:14px;margin-top:10px;margin-bottom:3px;}
+/*心得列表*/
+#experiencelist{padding:30px;background: rgb(249, 255, 249);min-height:250px;}
+#experiencelist .el{width:900px;}
+#experiencelist .el tr td{padding:10px 10px 10px 20px;}
+#experiencelist .el tr .eTime{color:#777;}
+#experiencelist .el a{color:#337AB7;}
+/* 上传照片模态框 */
+#uploadPhoto table{margin:10px 0 10px 0;margin-left:auto;margin-right:auto;}
+/* 心得详情模态框 */
+#expCon .et{font-size: 22px;font-weight: 100;}
+#expCon .modal-dialog,#editExp .modal-dialog{width:850px;}
+#expCon .modal-header,.modal-footer{border:0;}
+#expCon .modal-content{padding:0 0 0 30px;}
+#editExp table{margin: 0 15px;}
+#editExp .modal-footer{margin-right: 15px;}
